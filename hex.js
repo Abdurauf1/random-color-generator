@@ -8,9 +8,8 @@ const random = () => {
 };
 
 changeColor.addEventListener("click", () => {
-  const hex = `#${characters[random()]}${characters[random()]}${characters[random()]}${
-    characters[random()]
-  }${characters[random()]}${characters[random()]}`;
+  const hex = `#${characters[random()]}${characters[random()]}${characters[random()]}${characters[random()]
+    }${characters[random()]}${characters[random()]}`;
   document.body.style.backgroundColor = hex;
   colorText.textContent = hex;
 });
