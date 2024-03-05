@@ -11,7 +11,7 @@ const randomAlpha = () => {
 }
 
 changeColor.addEventListener("click", () => {
-    const rgb = `rgb(${random()}, ${random()}, ${random()}, ${randomAlpha()})`
+    const rgb = `RGBA(${random()}, ${random()}, ${random()}, ${randomAlpha()})`
     document.body.style.backgroundColor = rgb;
     colorText.textContent = rgb;
 });

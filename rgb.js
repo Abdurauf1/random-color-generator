@@ -6,7 +6,7 @@ const random = () => {
 };
 
 changeColor.addEventListener("click", () => {
-    const rgb = `rgb(${random()}, ${random()}, ${random()})`
+    const rgb = `RGB(${random()}, ${random()}, ${random()})`
     document.body.style.backgroundColor = rgb;
     colorText.textContent = rgb;
 });
