@@ -14,7 +14,7 @@ To run this website locally, follow these steps:
 
 `$ git clone [repo_url]`
 
-4.Run the project:
+2.Run the project:
 
 Run the code with live server in VS Code
 
