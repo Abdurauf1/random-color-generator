@@ -1,7 +1,7 @@
 const changeColor = document.querySelector(".change-color");
 const colorText = document.querySelector(".color");
 
-const colors = ["#f1f5f8", "red", "rgba(133,122,200)", "#f15025", "green"];
+const colors = ["#F1F5F8", "red", "RGBA(133,122,200)", "#F15025", "green"];
 
 const randomColor = () => {
   return Math.floor(Math.random() * colors.length);

@@ -20,7 +20,7 @@ nav {
 
 .logo {
   color: #49a6e9;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 ul {
@@ -32,8 +32,14 @@ ul li a {
   margin: 0 10px;
   font-weight: 600;
   text-decoration: none;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   color: #222;
+  font-size: 15px;
+  transition-duration: 0.3s;
+}
+
+.nav-active {
+  color: #49a6e9;
 }
 
 ul li a:hover {
